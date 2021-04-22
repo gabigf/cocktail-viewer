@@ -162,13 +162,6 @@ p {
   margin: 0;
 }
 
-footer {
-  font-size: 10px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.3);
-  position: fixed;
-  align-self: flex-end;
-}
 
 a, a:visited {
   text-decoration: none;
