@@ -122,12 +122,29 @@ p {
   padding: 50px 15px 50px 30px;
   margin-bottom: 50px;
   overflow: auto;
+  transition: ease-in 3000ms;
 }
 
 
-.drink-container {
+.drink-container, .drink-card {
   display: none;
-  transition-duration: 5s;
+}
+
+.fade-in {
+  opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 
@@ -168,8 +185,6 @@ a, a:visited {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.3);
 }
-
- 
 
 
 

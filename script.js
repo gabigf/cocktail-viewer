@@ -44,7 +44,6 @@ app.displayDrinks = result => {
     e.preventDefault();
     e.stopPropagation();
     window.open(`https://www.thecocktaildb.com/drink/${this.id}`, '_blank');
-    // app.getRecipes(this.id);
   });
 }
 
