@@ -127,6 +127,7 @@ p {
 
 .drink-container {
   display: none;
+  transition-duration: 5s;
 }
 
 

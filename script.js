@@ -1,7 +1,6 @@
 const app = {};
 
 const $panels = $('.panel');
-const $whiskeyPanel = $('.whiskey');
 const $drinkContainer = $('.drink-container');
 const $drinkTitle = $('.drink-title');
 const $recipeContainer = $('.recipe-card-container');
@@ -21,7 +20,7 @@ app.getCocktailsByIngredient = selection => {
     dataType: `JSON`
   }).then(results => {
     $drinkContainer.empty();
-      app.displayDrinks(results);
+    app.displayDrinks(results);
   });
 }
 
