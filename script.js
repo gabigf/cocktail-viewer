@@ -1,6 +1,6 @@
 const app = {};
 
-const $panels = $('.panel');
+const $panels = $('.panel'); 
 const $drinkContainer = $('.drink-container');
 const $drinkTitle = $('.drink-title');
 const $recipeContainer = $('.recipe-card-container');
