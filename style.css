@@ -117,8 +117,8 @@ p {
 .panel.open .drink-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 30em;
-  width: 55em;
+  height: 480px;
+  width: 880px;
   padding: 50px 15px 50px 30px;
   margin-bottom: 50px;
   overflow: auto;
