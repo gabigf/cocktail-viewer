@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   display: flex;
   align-items: center;
@@ -12,19 +11,16 @@ body {
   margin: 0;
 }
 
-
 .whiskey {background-image: url(assets/images/whiskey-panel.jpg);}
 .rum {background-image: url(assets/images/rum-panel.jpg);}
 .gin {background-image: url(assets/images/gin-panel.jpg);}
 .vodka {background-image: url(assets/images/vodka-panel.jpg);}
 .tequila {background-image: url(assets/images/tequila-panel.jpg);}
 
-
 .panel-container {
   display: flex;
   width: 100vw;
 }
-
 
 .panel{
   background-size: cover;
@@ -40,7 +36,6 @@ body {
   align-items: center;
 }
 
-
 .title-text {
   display: flex;
   flex-direction: column;
@@ -51,18 +46,15 @@ body {
   font-family: 'Economica', sans-serif;
 }
 
-
 h3, p {
   margin: 0;
   text-align: center;
 }
 
-
 h3 {
   font-size: 48px;
   font-weight: 700;
 }
-
 
 p {
   font-family: 'Noto Sans', sans-serif;
@@ -77,7 +69,6 @@ p {
   transition: 800ms ease-in;
 }
 
-
 .panel.open {
   flex: 5;
   transition: 800ms ease-out;
@@ -85,21 +76,17 @@ p {
   cursor: default;
 }
 
-
 .panel.open:hover {
   transform: scale(1);
 }
-
 
 .panel:hover {
   transform: scale(1.1);
 }
 
-
 .panel .title-text {
   transition: 800ms ease-out;
 }
-
 
 .panel.open .title-text {
   transform: translateY(-300px);
@@ -107,12 +94,10 @@ p {
   transition: 800ms ease-out;
 }
 
-
 .panel.open p {
   opacity: 0;
   transition: 800ms ease-out;
 }
-
 
 .panel.open .drink-container {
   display: grid;
@@ -124,7 +109,6 @@ p {
   overflow: auto;
   transition: ease-in 3000ms;
 }
-
 
 .drink-container, .drink-card {
   display: none;
@@ -147,7 +131,6 @@ p {
   }
 }
 
-
 .drink-card {
   display: flex;
   flex-direction: column;
@@ -160,7 +143,6 @@ p {
   margin-bottom: 30px;
   cursor: pointer;
 }
-
 
 .drink-img {
   border-radius: 10px 10px 0px 0px;
@@ -182,12 +164,7 @@ p {
   margin: 0;
 }
 
-
 a, a:visited {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.3);
 }
-
-
-
-
