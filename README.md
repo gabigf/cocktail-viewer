@@ -5,7 +5,7 @@ Displays cocktails sorted by main alcohol using an interactive UI. The drinks di
 - HTML 
 - CSS 
 - JavaScript 
-- jQuery library
+- jQuery
 
 
 ## Key Aspects
