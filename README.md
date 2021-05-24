@@ -13,7 +13,7 @@ Displays cocktails sorted by main alcohol using an interactive UI. The drinks di
 - Using Ajax to make the API call
 - jQuery is used for all element creation and manipulation
 
-##Improvements to come
+## Improvements to come
 -Responsive layout
 -Modal popup to display recipes instead of redirecting to theCocktailDB site
 -Search feature
